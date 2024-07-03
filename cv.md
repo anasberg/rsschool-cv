@@ -30,8 +30,8 @@ const function sayHallo(name) {
 ## Experience
 ### Education
 - Moscow State University
-  - philological faculty (2025)
-- [https://rs.school/](RS School) (in progress)
+  - philological faculty (2024)
+-  [RS School](https://rs.school/) (in progress)
 ***
 
 ## Languages
