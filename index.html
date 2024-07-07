@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/icons/fontawesome/all.min.css" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV Ana Berg</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img
+          class="photo"
+          src="assets/img/avatar.jpg"
+          alt="photo of Ana Berg"
+        />
+        <div>
+          <h1 class="title">Ana Berg</h1>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#contacts" class="list-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="list-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#languages" class="list-link">Languages</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="list-link">About me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="list-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="list-link">Code examples</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="list-link">Projects</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <aside class="aside">
+          <div class="aside-section" id="contacts">
+            <h2>Contacts</h2>
+            <ul class="list">
+              <li class="list-item">
+                <a class="list-link" href="tel:+79279970112"
+                  ><i class="fa-solid fa-mobile-alt contacts-icon"></i>+7 927
+                  997 01 12</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="mailto:anberg@inbox.ru"
+                  ><i class="fa-solid fa-envelope contacts-icon"></i
+                  >anberg@inbox.ru</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="aside-section" id="skills">
+            <h2>Skills</h2>
+            <ul class="list">
+              <li>HTML & CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Git</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+
+          <div class="aside-section" id="languages">
+            <h2>Languages</h2>
+            <ul class="list">
+              <li><b>Russian:</b> native</li>
+              <li><b>German:</b> B2</li>
+              <li><b>English:</b> A2/B1</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div>
+          <section class="main-section" id="about">
+            <h2>About me</h2>
+            <p>
+              I am a philologist by education, but I love to learn something
+              new. My latest hobby is development, that's why I'm here. I want
+              to learn how to create websites and mobile applications.
+            </p>
+          </section>
+
+          <section class="main-section" id="education">
+            <h2>Education</h2>
+            <ul class="list">
+              <li class="list-item">
+                <b>Moscow State University: </b>philological faculty (2024)
+              </li>
+              <li class="list-item">
+                <a
+                  class="list-link"
+                  style="padding: 0"
+                  href="https://rs.school/courses/javascript-preschool-ru"
+                  ><b>RS School</b>: (in progress)</a
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section class="main-section" id="code">
+            <h2>Code examples</h2>
+            <pre>
+            <code>
+              const function sayHallo(name) { 
+                return `Hallo, ${name}` 
+            }
+            </code></pre>
+          </section>
+
+          <section class="main-section" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-content">
+              <div class="project-container">
+                <h3>CV in Markdown</h3>
+                <a
+                  href="https://anasberg.github.io/rsschool-cv/cv"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="list-link"
+                  ><i class="fa-brands fa-markdown project-icon"></i
+                ></a>
+              </div>
+              <div class="project-container">
+                <h3>Layout: HTML& CSS</h3>
+                <a
+                  href="https://anasberg.github.io/rsschool-cv/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="list-link"
+                  ><i class="fa-solid fa-file-code project-icon"></i
+                ></a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <a
+            href="https://github.com/anasberg"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="list-link"
+            ><i class="fa-brands fa-github icon"></i
+          ></a>
+          <p class="year">2024</p>
+          <a
+            href="https://rs.school/courses/javascript-ru"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="list-link"
+            ><img
+              src="assets/img/rs-school-logo.svg"
+              alt="logo of RSSchool"
+              class="logo"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
